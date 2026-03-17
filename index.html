@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Vision School | Shaping Bright Futures</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- NAVIGATION BAR -->
+    <header>
+        <nav>
+            <div class="logo-container">
+                <!-- To replace logo: Change the src below to your logo path (e.g., images/logo.png) -->
+                <div class="logo-container">
+    <img src="images/logo.png" alt="New Vision School Logo">
+    <div class="school-info">
+                    <h1>New Vision School</h1>
+                    <p>Shaping Bright Futures</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#admission">Admission</a></li>
+                <li><a href="#notices">Notices</a></li>
+                <li><a href="#results">Results</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section id="home" class="hero">
+        <h2>Welcome to New Vision School</h2>
+        <p>Located in Aithole Village, Nagarkurnool District, Telangana. We are dedicated to providing quality education and fostering excellence in every student.</p>
+        <a href="#admission" class="cta-button">Apply for Admission</a>
+    </section>
+
+    <!-- HOME HIGHLIGHTS -->
+    <section class="highlights-section">
+        <div class="highlights">
+            <div class="highlight-card">
+                <i class="fas fa-user-graduate"></i>
+                <h3>Admissions Open</h3>
+                <p>Join our community for the 2026-27 academic year. Limited seats available!</p>
+                <a href="#admission" style="color: var(--primary-blue); font-weight: bold;">Learn More</a>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-bullhorn"></i>
+                <h3>Latest Notices</h3>
+                <p>Stay updated with the latest school announcements and event schedules.</p>
+                <a href="#notices" style="color: var(--primary-blue); font-weight: bold;">View Board</a>
+            </div>
+            <div class="highlight-card">
+                <i class="fas fa-images"></i>
+                <h3>School Gallery</h3>
+                <p>Take a look at our campus life, events, and student achievements.</p>
+                <a href="#gallery" style="color: var(--primary-blue); font-weight: bold;">Browse Photos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="section-title">
+            <h2>About Our School</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Our Story</h3>
+                <p>New Vision School was established with a vision to bring quality education to the heart of Aithole Village. We believe in holistic development, combining academic rigor with moral values.</p>
+                
+                <h3 style="margin-top: 20px;">Mission</h3>
+                <p>To empower students with knowledge, skills, and values that will enable them to become responsible citizens and lifelong learners.</p>
+                
+                <h3 style="margin-top: 20px;">Vision</h3>
+                <p>To be a leading educational institution that inspires excellence and nurtures the unique potential of every child.</p>
+            </div>
+            <div class="about-image">
+                <!-- Replace with images/school1.jpg -->
+                <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=600&q=80" alt="School Campus">
+            </div>
+        </div>
+
+        <div class="facilities-section" style="margin-top: 50px;">
+            <h3 style="text-align: center; color: var(--primary-blue); margin-bottom: 30px;">Our Facilities</h3>
+            <div class="facilities-grid">
+                <div class="facility-item"><i class="fas fa-book"></i><p>Modern Library</p></div>
+                <div class="facility-item"><i class="fas fa-flask"></i><p>Science Lab</p></div>
+                <div class="facility-item"><i class="fas fa-laptop"></i><p>Computer Lab</p></div>
+                <div class="facility-item"><i class="fas fa-running"></i><p>Playground</p></div>
+                <div class="facility-item"><i class="fas fa-bus"></i><p>Transport</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADMISSION SECTION -->
+    <section id="admission" style="background-color: #f9f9f9;">
+        <div class="section-title">
+            <h2>Online Admission</h2>
+            <div class="underline"></div>
+            <p>Fill out the form below to register your interest.</p>
+        </div>
+        <div class="form-container">
+            <form id="admission-form">
+                <div class="form-group">
+                    <label for="student-name">Student Name</label>
+                    <input type="text" id="student-name" required placeholder="Enter full name">
+                </div>
+                <div class="form-group">
+                    <label for="parent-name">Parent/Guardian Name</label>
+                    <input type="text" id="parent-name" required placeholder="Enter parent name">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" required placeholder="Enter contact number">
+                </div>
+                <div class="form-group">
+                    <label for="class">Class Applying For</label>
+                    <select id="class" required>
+                        <option value="">Select Class</option>
+                        <option value="nursery">Nursery</option>
+                        <option value="lkg">LKG</option>
+                        <option value="ukg">UKG</option>
+                        <option value="1">Class 1</option>
+                        <option value="2">Class 2</option>
+                        <option value="3">Class 3</option>
+                        <option value="4">Class 4</option>
+                        <option value="5">Class 5</option>
+                        <option value="6">Class 6</option>
+                        <option value="7">Class 7</option>
+                        <option value="8">Class 8</option>
+                        <option value="9">Class 9</option>
+                        <option value="10">Class 10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address</label>
+                    <textarea id="address" rows="3" required placeholder="Enter your address"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Request</button>
+            </form>
+            <div id="admission-message"></div>
+        </div>
+    </section>
+
+    <!-- NOTICES SECTION -->
+    <section id="notices">
+        <div class="section-title">
+            <h2>Notice Board</h2>
+            <div class="underline"></div>
+        </div>
+        <!-- This container is populated by script.js -->
+        <div id="notice-list" class="notice-list">
+            <!-- Notices will appear here automatically -->
+        </div>
+    </section>
+
+    <!-- RESULTS SECTION -->
+    <section id="results" style="background-color: #f9f9f9;">
+        <div class="section-title">
+            <h2>Student Results</h2>
+            <div class="underline"></div>
+            <p>Enter your roll number to check your marks.</p>
+        </div>
+        <div class="search-container">
+            <input type="text" id="roll-number" class="search-box" placeholder="Enter Roll Number (e.g. 101)">
+            <button onclick="searchResult()" class="search-btn">Search</button>
+        </div>
+        <div id="result-display" class="result-display">
+            <!-- Results will appear here -->
+        </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery">
+        <div class="section-title">
+            <h2>Photo Gallery</h2>
+            <div class="underline"></div>
+        </div>
+        <!-- This container is populated by script.js -->
+        <div id="gallery-grid" class="gallery-grid">
+            <!-- Gallery images will appear here automatically -->
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" style="background-color: #f9f9f9;">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <div class="underline"></div>
+        </div>
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Aithole Village, Nagarkurnool District, Telangana, India</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 98765 43210</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>info@newvisionschool.com</p>
+                </div>
+                
+                <div style="margin-top: 30px;">
+                    <h3>School Hours</h3>
+                    <p>Monday - Friday: 9:00 AM - 4:00 PM</p>
+                    <p>Saturday: 9:00 AM - 1:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="c-name">Your Name</label>
+                        <input type="text" id="c-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-email">Your Email</label>
+                        <input type="email" id="c-email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="c-message">Message</label>
+                        <textarea id="c-message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <div id="contact-message"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>New Vision School</h4>
+                <p>Providing excellence in education since 2010. Dedicated to nurturing the next generation of leaders.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul style="list-style: none;">
+                    <li><a href="#home" style="color: white; text-decoration: none;">Home</a></li>
+                    <li><a href="#about" style="color: white; text-decoration: none;">About Us</a></li>
+                    <li><a href="#admission" style="color: white; text-decoration: none;">Admissions</a></li>
+                    <li><a href="#contact" style="color: white; text-decoration: none;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Location</h4>
+                <p>Aithole Village,<br>Nagarkurnool Dist,<br>Telangana - 509209</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 New Vision School. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to external JS file -->
+    <script src="script.js"></script>
+</body>
+</html>
+
